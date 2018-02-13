@@ -24,5 +24,5 @@ function deepestChild() {
   var deepText = all.textContent;
   var parsed = deepText.replace(/\s/g,'');
 
-  return parsed;
+  return all.lastChild;
 }
