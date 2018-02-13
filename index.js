@@ -22,7 +22,7 @@ function increaseRankBy(n) {
 function deepestChild() {
   var all = document.querySelector('div#grand-node');
   var string = all.TextContent.replace(/\s/g,'');
-  return string
+  return string;
 
   }
 }
