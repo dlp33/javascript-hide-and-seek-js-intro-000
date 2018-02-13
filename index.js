@@ -15,6 +15,14 @@ function increaseRankBy(n) {
   for (let i = 0; i < list.length; i++) {
     var initalNum = parseInt(list[i].innerHTML);
     list[i].innerHTML = initalNum + n;
+  }
+
 }
 
+function deepestChild() {
+  var all = document.querySelector('div#grand-node');
+  return all.innerText;
+
+  }
+}
 }
