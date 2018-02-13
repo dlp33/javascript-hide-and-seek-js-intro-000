@@ -22,6 +22,7 @@ function increaseRankBy(n) {
 function deepestChild() {
   var all = document.querySelector('div#grand-node');
   var deepText = all.textContent;
+  var parsed = deepText.replace(/\s/g,'');
 
-  return deepText;
+  return parsed;
 }
