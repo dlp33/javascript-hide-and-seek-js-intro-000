@@ -20,9 +20,11 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var all = document.querySelector('div#grand-node');
-  var deepText = all.textContent;
-  var parsed = deepText.replace(/\s/g,'');
+  var all = document.querySelectorAll('#grand-node');
+  // for(var i = 0; i < all.length; i++) {
+  //   console.log(all[i].innerHTML);
+  // }
+  //var parsed = deepText.replace(/\s/g,'');
 
-  return all.lastChild;
+  return all.[3]
 }
