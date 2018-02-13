@@ -26,5 +26,5 @@ function deepestChild() {
   // }
   //var parsed = deepText.replace(/\s/g,'');
 
-  return all.[3]
+  return all[3];
 }
