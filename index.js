@@ -1,3 +1,14 @@
 function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
+
+function nestedTarget() {
+  // that pulls a .target out of #nested 
+  // (Note that in index.html #nested and .target just happen to be divs. This method should work with arbitrary elements.)
+
+  var target = document.getElementById('nested').querySelector('.target');
+
+  return target;
+
+  
+}
